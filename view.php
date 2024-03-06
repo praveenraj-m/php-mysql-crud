@@ -34,7 +34,7 @@
                  <h3>Description:</h3>
                  <p><?php echo $row["description"]; ?></p>
                  <h3>Author:</h3>
-                 <p><?php echo $row["author"]; ?></p>
+                 <p><?php echo $row["Category"]; ?></p>
                  <h3>Type:</h3>
                  <p><?php echo $row["author"]; ?></p>
                 
