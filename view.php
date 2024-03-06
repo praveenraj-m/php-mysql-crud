@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Book Details</title>
-    <style> 
+    <style>
         .book-details{
             background-color:#f5f5f5;
         }
@@ -34,9 +34,9 @@
                  <h3>Description:</h3>
                  <p><?php echo $row["description"]; ?></p>
                  <h3>Author:</h3>
-                 <p><?php echo $row["Category"]; ?></p>
-                 <h3>Type:</h3>
                  <p><?php echo $row["author"]; ?></p>
+                 <h3>Type:</h3>
+                 <p><?php echo $row["type"]; ?></p>
                 
                  <?php
                 }

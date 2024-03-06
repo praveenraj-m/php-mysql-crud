@@ -86,7 +86,7 @@
                 <td>
                     <a href="view.php?id=<?php echo $data['id']; ?>" class="btn btn-info">Read More</a>
                     <a href="edit.php?id=<?php echo $data['id']; ?>" class="btn btn-warning">Edit</a>
-                    <a href="delete.php?id=<?php echo $data['id']; ?>" class="btn btn-danger">Delete</a>
+		<a onclick="if(confirm ('Click OK to confirm delete')){ return true; } else {return false;}" href="delete.php?id=<?php echo $data['id']; ?>" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
             <?php
